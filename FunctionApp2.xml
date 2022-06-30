@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FunctionApp2</name>
+    </assembly>
+    <members>
+        <member name="M:FunctionApp2.Function1.Run(Microsoft.AspNetCore.Http.HttpRequest,Microsoft.Extensions.Logging.ILogger)">
+            <summary>
+            Summary of what the function does 
+            </summary>
+            <response code="200">
+              Indicates success. 
+            </response>
+            <response code="400">
+              Indicates a bad request. Returns what was wrong in the ErrorDetails portion of the response. 
+            </response>
+            <response code="500">
+              Indicates a server error. Returns what was wrong in the ErrorDetails portion of the response. 
+            </response>
+        </member>
+    </members>
+</doc>
